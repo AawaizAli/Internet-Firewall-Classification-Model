@@ -1,0 +1,14 @@
+prefix=/Users/aawaizali/Developer/mlproj/env
+exec_prefix=/Users/aawaizali/Developer/mlproj/env
+libdir=/Users/aawaizali/Developer/mlproj/env/lib
+includedir=/Users/aawaizali/Developer/mlproj/env/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.3.18
+Requires: 
+Requires.private: 
+Libs: -L/Users/aawaizali/Developer/mlproj/env/lib -lfreetype
+Libs.private: -lz -L/Users/aawaizali/Developer/mlproj/env/lib -lpng16 -lz
+Cflags: -I${includedir}/freetype2
